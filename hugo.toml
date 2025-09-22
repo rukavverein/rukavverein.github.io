@@ -1,0 +1,27 @@
+baseURL = 'https://rukavverein.gitlab.io/'
+languageCode = 'en-us'
+title = 'RuKAV'
+theme='ananke'
+
+[menus]
+  [[menus.main]]
+    name = 'About us'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Events'
+    pageRef = '/events'
+    weight = 20
+  [[menus.main]]
+    name = 'Board'
+    pageRef = '/board'
+    weight = 30
+  [[menus.main]]
+    name = 'Contact'
+	  pageRef = '/contact'
+	  weight = 40
+
+  [params]
+    instagram = "https://www.instagram.com/rukav.swiss"
+    background_color_class = "bg-black"
+    defaultImage = "/images/mountains.jpg"
